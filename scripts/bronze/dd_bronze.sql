@@ -21,7 +21,7 @@ cst_firstname nvarchar(50),
 cst_lastname nvarchar(50),
 cst_material_status nvarchar(50),
 cst_gender nvarchar(50),
-v_create_date date
+cst_create_date date
 );
 
 if object_id('bronze.crm_prd_info','u') is not null
